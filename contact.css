@@ -1,0 +1,79 @@
+#google_map {
+    width: 100%;
+    margin-top: 200px;
+    filter: grayscale(50%);
+  }
+  
+  
+  .opc_text {
+    opacity: 0.3;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+  }
+  
+  footer {
+    margin-top: 50px;
+  }
+  
+  
+  #fname, #lname, #textfield {
+    width: 390px;
+    height: 50px;
+    opacity: 0.5;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+  
+  #textfield {
+    height: 221px;
+    width: 787px;
+  }
+  
+  
+  #contactFlex {
+    display: flex;
+    margin-top: 200px;
+    margin-left: 100px;
+    gap: 150px;
+  }
+  
+  #personal_info {
+    margin-right: 100px;
+  }
+  
+ 
+  #contactFlex { 
+    position: relative; 
+    animation: moveUp 0.5s linear forwards; 
+  } 
+  @keyframes moveUp { 
+    0% { top: 150px; opacity: 0; } 
+    100% { top: 0; opacity: 1; } 
+  }
+  
+  
+  
+  #contactFlex h2 {
+    font-family: playfair;
+    font-size: 50px;
+    font-weight: 100;
+  }
+  
+  
+  #pi_submit {
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+  }
+  
+  #pi_submit:hover {
+    background-color: rgba(197, 115, 115, 0.692);
+    transition: background-color 0.4s ease;
+  }
+  
+  
